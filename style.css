@@ -28,6 +28,8 @@ body {
   font-weight: 400;
   line-height: 30px; /* 166.667% */
   width: 634px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 #banner .container button {
   padding: 20px 43px;
@@ -54,3 +56,41 @@ body {
 #banner .container .left {
     padding-left:  120px;
 }
+#Featured {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: 2px seagreen solid;
+  width:100%;
+height: 4867px;
+background: #FFF;
+}
+#Featured .div-1 .h2 {
+  justify-content: center;
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+}
+#Featured .div-1 .p {
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+
+}
+#Featured .div-2 .img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align:center;
+  width:100%;
+
+}
+
+
+
